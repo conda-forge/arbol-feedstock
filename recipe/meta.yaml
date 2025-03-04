@@ -1,13 +1,13 @@
 {% set name = "arbol" %}
-{% set version = "2021.5.27.641" %}
+{% set version = "2025.3.3" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/arbol-{{ version }}.tar.gz
-  sha256: 5b944a29bbbe488f71251a2cd247bb3eacfdc1e927350e7f9cd9de797b5d1f70
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/arbol-{{ version }}.tar.gz
+  sha256: 690cd9c348ebafb54b87a6c221a7fe65617cf05b8ae46635bbcdf30bce84fc8a
 
 build:
   noarch: python
